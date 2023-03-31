@@ -10,27 +10,21 @@ body{
     background-color: lightblue;
 }
 .container {
-    border: 10px solid white;
+    border: 15px solid white;
     border-radius: 20px;
     text-align: center;
     background-color: rgba(247, 243, 242, 0.7);
 }
-.border-line {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-  }
-
 .button-style {
-    height: 50px;
-    width: 70px;
+    height: 65px;
+    width: 85px;
     margin:3px 5px;
     border-radius: 50px;
-    font-size: 17pt;
+    font-size: 20pt;
     font-weight: bold;
   }
   .form-control {
-    height: 60px;
+    height: 65px;
     font-size: 3vw;
     margin-right: 15px;
     margin-bottom: 10px;
@@ -38,16 +32,16 @@ body{
   }
   
 .pre-title {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: bold;
     color: blue;
 }
 .title {
-    font-size:7vw;
+    font-size:8vw;
     font-weight: bold;
 }
 .sub-title {
-    font-size: 6vw;
+    font-size: 7vw;
     font-weight: bold;
   }
 .sub-title span {
@@ -69,10 +63,19 @@ body{
         font-size: 8vw;
       }
     .form-control {
+        height: 65px;
       font-size: 5vw;
       max-width: 500px;
       margin-right: 0px;
     }
+    .button-style {
+      height: 60px;
+      width: 80px;
+      margin:3px 5px;
+      border-radius: 50px;
+      font-size: 22pt;
+      font-weight: bold;
+      }
     .main-img {
       width: 40vw;
     }
